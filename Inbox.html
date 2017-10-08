@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sekretari</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="js/bootstrap-fullcalendar.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+  <section id="container" >
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips"  aria-hidden="true" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <a href="Sekretari.html" class="logo"><b>Agjenda</b></a>
+            <div class="nav notify-row" id="top_menu">
+                <ul class="nav top-menu">
+
+                    <li id="header_inbox_bar" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="l#">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-theme">2</span>
+                        </a>
+                        <ul class="dropdown-menu extended inbox">
+                            <div class="notify-arrow notify-arrow-green"></div>
+                            <li>
+                                <p class="green">Ju keni tri mesazhe të reja</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="http://via.placeholder.com/40x40"></span>
+                                    <span class="subject">
+                                    <span class="from">Njoftim</span>
+                                    <span class="time">Tani</span>
+                                    </span>
+                                    <span class="message">
+                                        Njoftim. Nesër nga ora 14:30 keni ..
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="photo"><img alt="avatar" src="http://via.placeholder.com/40x40"></span>
+                                    <span class="subject">
+                                    <span class="from">Njoftim</span>
+                                    <span class="time">Para 40 min.</span>
+                                    </span>
+                                    <span class="message">
+                                    Përkujtim. Nesër në ora 09:00 ...
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Inbox.html">Shiko të gjitha mesazhet</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-menu">
+            	<ul class="nav pull-right top-menu">
+                    <li><a class="logout" href="login.html">Shkyçuni</a></li>
+            	</ul>
+            </div>
+        </header>
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="#"><img src="http://via.placeholder.com/128x128" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Emri Mbiemri</h5>
+              	  	
+                  <li class="mt">
+                      <li class="active"><a  href="Sekretari.html"><i class="fa fa-calendar" aria-hidden="true"></i><span>Kalendari</span></a>
+                  </li>
+              </ul>
+          </div>
+      </aside>
+      <section id="main-content">
+          <section class="wrapper">
+          	<h3><i class="fa fa-angle-right" aria-hidden="true"></i> Kalendari</h3>
+              <div class="row mt">
+                  <aside class="col-md-12 mt">
+                      
+					
+					<div class="panel panel-default">
+						
+						<div class="panel-body">
+							
+							<span class="btn-group">
+							  	<button class="btn btn-default"><span class="fa fa-envelope"aria-hidden="true"></span></button>
+							  	<button class="btn btn-default"><span class="fa fa-star" aria-hidden="true"></span></button>
+							  	<button class="btn btn-default"><span class="fa fa-star-o" aria-hidden="true"></span></button>
+								<button class="btn btn-default"><span class="fa fa-bookmark-o" aria-hidden="true"></span></button>
+							</span>
+
+							<span class="btn-group">
+							  	<button class="btn btn-default"><span class="fa fa-mail-reply" aria-hidden="true"></span></button>
+							  	<button class="btn btn-default"><span class="fa fa-mail-reply-all" aria-hidden="true"></span></button>
+							  	<button class="btn btn-default"><span class="fa fa-mail-forward" aria-hidden="true"></span></button>
+							</span>
+
+							<button class="btn btn-default"><span class="fa fa-trash-o" aria-hidden="true"></span></button>
+
+							<span class="btn-group pull-right">
+							  	<button class="btn btn-default"><span class="fa fa-chevron-left" aria-hidden="true"></span></button>
+							  	<button class="btn btn-default"><span class="fa fa-chevron-right" aria-hidden="true"></span></button>
+							</span>
+
+							<ul class="messages-list">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+							</ul>
+							
+						</div>	
+						
+					</div>	
+
+                  </aside>
+              </div>
+          </section>
+      </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="js/fullcalendar.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+    <script src="js/common-scripts.js"></script>
+
+	<script src="js/calendar-conf-events.js"></script>    
+  
+  <script>
+      //custom select box
+
+      $(function(){
+          $("select.styled").customSelect();
+      });
+
+  </script>
+
+  </body>
+</html>
